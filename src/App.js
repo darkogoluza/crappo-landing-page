@@ -2,6 +2,7 @@ import React from "react";
 import GlobalStyle from "./globalStyle";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
+import Trade from "./components/Trade";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <GlobalStyle />
       <Hero />
       <Info />
+      <Trade />
     </>
   );
 }
