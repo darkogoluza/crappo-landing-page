@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Info from "./components/Info";
 import Trade from "./components/Trade";
 import Features from "./components/Features";
+import StartMining from "./components/StartMining";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Info />
       <Trade />
       <Features />
+      <StartMining />
     </>
   );
 }
